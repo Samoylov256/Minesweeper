@@ -1,0 +1,83 @@
+{
+    "defaults": {
+        "colours": {
+            "normal_bg": "#F7FCFF",
+            "hovered_bg": "#EDF8FF",
+            "disabled_bg": "#EEF3F6",
+            "selected_bg": "#D9F0FF",
+            "active_bg": "#D9F0FF",
+            "dark_bg": "#FFFFFF",
+            "disabled_dark_bg": "#F4F7F9",
+            "normal_text": "#3E4448",
+            "hovered_text": "#343A3E",
+            "disabled_text": "#9AA7AE",
+            "selected_text": "#263238",
+            "active_text": "#263238",
+            "normal_text_shadow": "#00000000",
+            "hovered_text_shadow": "#00000000",
+            "disabled_text_shadow": "#00000000",
+            "selected_text_shadow": "#00000000",
+            "active_text_shadow": "#00000000",
+            "normal_border": "#BFE6FA",
+            "hovered_border": "#91D5F4",
+            "disabled_border": "#D8E7EF",
+            "selected_border": "#74C6EC",
+            "active_border": "#74C6EC",
+            "text_cursor": "#3E4448"
+        }
+    },
+    "#soft_control": {
+        "misc": {
+            "shape": "rounded_rectangle",
+            "border_width": "2",
+            "shadow_width": "0",
+            "shape_corner_radius": "6",
+            "text_shadow_size": "0",
+            "text_shadow_offset": "0,0",
+            "text_horiz_alignment_padding": "12"
+        }
+    },
+    "button": {
+        "prototype": "#soft_control",
+        "font": {
+            "name": "arial",
+            "size": "20"
+        },
+        "misc": {
+            "text_horiz_alignment": "center"
+        }
+    },
+    "label": {
+        "font": {
+            "name": "arial",
+            "size": "25"
+        },
+        "colours": {
+            "normal_text": "#FFF"
+        },
+        "misc": {
+            "text_horiz_alignment": "left",
+            "text_vert_alignment": "center"
+        }
+    },
+    "#error_message": {
+        "font": {
+            "name": "arial",
+            "size": "28"
+        },
+        "colours": {
+            "normal_text": "#FF0000"
+        },
+        "misc": {
+            "text_horiz_alignment": "center",
+            "text_vert_alignment": "center"
+        }
+    },
+    "text_entry_line": {
+        "prototype": "#soft_control",
+        "misc": {
+            "padding": "6,4",
+            "text_horiz_alignment_padding": "8"
+        }
+    }
+}
